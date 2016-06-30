@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="true"
+        tools:context="com.example.vivek.assignment113.StudentMarksFragment"
+        >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/RoyalBlue"
+                android:text="  Subjects  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/RoyalBlue"
+                android:text="  Test 1  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/RoyalBlue"
+                android:text="  Test 2  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/RoyalBlue"
+                android:text="  Test 3  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/RoyalBlue"
+                android:text="  Annual  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Subject1"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Subject 1  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks11"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 1  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks21"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 2  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks31"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 3  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks41"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  A MArk  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Subject2"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Subject 2  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks12"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 1  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks22"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 2  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks32"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 3  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks42"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  A MArk  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Subject3"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Subject 3  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks13"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 1  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks23"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 2  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks33"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 3  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks43"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  A MArk  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Subject4"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Subject 4  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks14"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 1  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks24"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 2  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks34"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 3  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks44"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  A MArk  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Subject5"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Subject 5  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks15"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 1  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks25"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 2  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks35"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 3  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks45"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  A MArk  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Subject6"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Subject 6  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks16"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 1  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks26"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 2  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks36"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 3  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks46"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  A MArk  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Subject7"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Subject 7  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks17"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 1  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks27"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 2  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks37"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  Mark 3  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Marks47"
+                android:layout_weight="1"
+                android:background="@color/White"
+                android:text="  A MArk  "
+                android:textColor="@color/Black"
+                android:textSize="17sp" />
+        </TableRow>
+
+    </TableLayout>
+
+</HorizontalScrollView>

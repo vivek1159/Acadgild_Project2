@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="Registration_TextView">
+        <item name="android:layout_width">@dimen/Registration_TextView_Width</item>
+        <item name="android:layout_height">@dimen/Registration_TextView_Height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/Registration_TextView_TextSize</item>
+    </style>
+
+    <style name="Registration_EditText">
+        <item name="android:layout_width">@dimen/Registration_EditText_Width</item>
+        <item name="android:layout_height">@dimen/Registration_TextView_Height</item>
+        <item name="android:background">@drawable/login_edit_text_style</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/Registration_TextView_TextSize</item>
+    </style>
+
+
+    <style name="StudentRegistration_TextView">
+        <item name="android:layout_width">@dimen/Registration_TextView_Width</item>
+        <item name="android:layout_height">@dimen/Registration_TextView_Height</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/Registration_TextView_TextSize</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="land_StudentRegistration_TextView">
+        <item name="android:layout_width">@dimen/Registration_TextView_Width</item>
+        <item name="android:layout_height">@dimen/Registration_TextView_Height</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">@dimen/Registration_TextView_TextSize</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginStart">90dp</item>
+    </style>
+</resources>

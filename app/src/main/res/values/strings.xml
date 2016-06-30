@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">College Management System</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_admin_home">AdminHome</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="title_activity_student_registration">StudentRegistration</string>
+    <string name="title_activity_update_student">UpdateStudent</string>
+    <string name="title_activity_teacher_home">TeacherHome</string>
+    <string name="title_activity_professor_registration">ProfessorRegistration</string>
+    <string name="title_activity_student_home">StudentHome</string>
+    <string name="title_activity_update_professor">UpdateProfessor</string>
+    <string name="title_activity_upload_marks">UploadMarks</string>
+</resources>
